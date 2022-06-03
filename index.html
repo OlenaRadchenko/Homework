@@ -7,87 +7,87 @@
     <title>Студія WebStudio</title>
 </head>
 <body>
-    <header class="header" style="background-image: url(./images/HeaderBg.jpg); width: 1600px;">
-        <a href="#" aria-label="Main Page"><span>Web</span>Studio</a>
-        <nav>
-            <ul class="top-navigation">
-                <li>Студия</li>
-                <li>Портфолио</li>
-                <li>Контакты</li>
+    <header class="header">
+        <a href="#" aria-label="Main Page"><span class="accent">Web</span>Studio</a>
+        <nav class="top-navigation">
+            <ul class="nav-links">
+                <li><a href="#">Студия</a></li>
+                <li><a href="">Портфолио</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
-        <div>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
-        <section class="section-title" style="background-image: url(./images/SectTitleBg.jpg); width: 1600px;">
+        <section class="section-title">
             <h1>Эффективные решения для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
         </section>
         <section class="section-spec">
             <h2 hidden="">Особенности</h2>
-            <ul >
-                <li>
+            <ul class="specs">
+                <li class="spec-block">
                     <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <p class="spec-desc">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="spec-block">
                     <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <p class="spec-desc">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="spec-block">
                     <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <p class="spec-desc">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="spec-block">
                     <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <p class="spec-desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <section class="section-activities">
             <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="./images/SecActiv1.jpg" alt="" width="370"></li>
-                <li><img src="./images/SecActiv2.jpg" alt="" width="370"></li>
-                <li><img src="./images/SecActiv3.jpg" alt="" width="370"></li>
+            <ul class="activities">
+                <li><img src="./images/activity-prog.jpg" alt="Программирование" width="370"></li>
+                <li><img src="./images/activity-ui-design.jpg" alt="UI дизайн" width="370"></li>
+                <li><img src="./images/activity-web-design.jpg" alt="Веб-дизайн" width="370"></li>
             </ul>
         </section>
         <section class="section-team">
             <h2>Наша команда</h2>
-            <ul>
-                <li style="background-image: url(./images/CardBg.jpg); width: 280px;">
-                    <img src="./images/Card1.jpg" alt="Фото Игоря Демьяненко" width="270">
+            <ul class="cards">
+                <li class="card">
+                    <img src="./images/demyanenko.jpg" alt="Фото Игоря Демьяненко" width="280">
                     <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <p class="card-desc">Product Designer</p>
                 </li>
-                <li style="background-image: url(./images/CardBg.jpg); width: 280px;">
-                    <img src="./images/Card2.jpg" alt="Фото Ольги Репиной" width="270">
+                <li class="card">
+                    <img src="./images/repina.jpg" alt="Фото Ольги Репиной" width="280">
                     <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <p class="card-desc">Frontend Developer</p>
                 </li>
-                <li style="background-image: url(./images/CardBg.jpg); width: 280px;">
-                    <img src="./images/Card3.jpg" alt="Фото Николая Тарасова" width="270">
+                <li class="card">
+                    <img src="./images/tarasov.jpg" alt="Фото Николая Тарасова" width="280">
                     <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <p class="card-desc">Marketing</p>
                 </li>
-                <li style="background-image: url(./images/CardBg.jpg); width: 280px;">
-                    <img src="./images/Card4.jpg" alt="Фото Михаила Ермакова" width="270">
+                <li class="card">
+                    <img src="./images/yermakov.jpg" alt="Фото Михаила Ермакова" width="280">
                     <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <p class="card-desc">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer class="bottom-contacts" style="background-image: url(./images/FooterBg.jpg); width: 1600px;">
-        <p><a href="#"><span>Web</span>Studio</a></p>
+    <footer class="bottom-contacts">
+        <p class="bottom-link"><a href="#"><span class="accent">Web</span>Studio</a></p>
         <address>
-            <ul>
-                <li>г. Киев, пр-т Леси Украинки, 26</li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+            <ul id="contacts" class="contacts">
+                <li class="contacts-link"><a href="" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="contacts-link"><a href="mailto:info@example.com">info@example.com</a></li>
+                <li class="contacts-link"><a href="tel:+380961111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
